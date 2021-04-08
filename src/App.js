@@ -19,7 +19,9 @@ function App() {
             one: 'Add to shampoo', two: 'Add to conditioner'}}
          />
 
-         <Main />
+         <Main
+           answer={{one: 'Winter', two:'Spring', three: 'Summer', four: 'Autumn'}}
+          />
       </div>
   );
 }

@@ -23,3 +23,21 @@ code {
 ul li{
   list-style: none;
 }
+.mainDiv{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+input{
+  border: 2px solid green;
+  width: 50px;
+  color: pink;
+}
+.form p:hover{
+  color: pink;
+}
